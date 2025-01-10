@@ -1,0 +1,3 @@
+Flask
+fuzzywuzzy
+python-Levenshtein  # Required for fuzzywuzzy to work efficiently
