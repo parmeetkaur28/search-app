@@ -4,6 +4,10 @@ from fuzzywuzzy import fuzz
 
 app = Flask(__name__)
 
+@app.route('/', methods=['GET'])
+def home():
+    return 'Search App API'
+    
 def soundex(name):
     """
     Generate the Soundex code for a given name.
